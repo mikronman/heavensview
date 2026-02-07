@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Heaven’s View Cabin",
+  "description": "Heaven’s View is a peaceful, adult-only mountain cabin in Cherry Log, Georgia, between Blue Ridge and Ellijay. The cabin offers breathtaking mountain views, a private hot tub, modern comforts, and a quiet retreat for adults.",
+  "url": "https://heavensviewcabin.com/",
+  "image": [
+    "https://heavensviewcabin.com/images/hero/hero.jpg",
+    "https://heavensviewcabin.com/images/gallery/open-view.jpg",
+    "https://heavensviewcabin.com/images/gallery/hotub-view.jpg"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Cherry Log",
+    "addressRegion": "GA",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.786,
+    "longitude": -84.336
+  },
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Private hot tub",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Mountain views",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Adults only",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Free parking",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "High-speed internet",
+      "value": true
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.98",
+    "reviewCount": "51"
+  }
+}
