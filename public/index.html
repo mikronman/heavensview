@@ -13,6 +13,11 @@
   />
   <!-- Canonical -->
   <link rel="canonical" href="https://heavensviewcabin.com/" />
+  <link
+    rel="preload"
+    as="image"
+    href="/images/hero/hero-desktop.jpg"
+    />
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Heaven’s View Cabin | Adult-Only Mountain Retreat Near Blue Ridge, GA" />
@@ -21,8 +26,10 @@
     content="A cozy, adult-only mountain cabin with stunning views, private hot tub, and easy access to Blue Ridge and Ellijay."
   />
   <meta property="og:url" content="https://heavensviewcabin.com/" />
-  <!-- Add later -->
-  <!-- <meta property="og:image" content="https://heavensviewcabin.com/images/hero.jpg" /> -->
+  <meta
+    property="og:image"
+    content="https://heavensviewcabin.com/images/hero/hero-desktop.jpg"
+    />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Heaven’s View Cabin | Adult-Only Mountain Retreat Near Blue Ridge, GA" />
@@ -30,6 +37,18 @@
     name="twitter:description"
     content="A peaceful adults-only mountain retreat with breathtaking views and private hot tub near Blue Ridge, GA."
   />
+  <meta
+    name="twitter:image"
+    content="https://heavensviewcabin.com/images/hero/hero-desktop.jpg"
+    />
+
+  <!-- FONTS-->
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+    />
   <!-- Styles -->
   <link rel="stylesheet" href="/styles.css" />
   <!-- Favicon (optional, add later) -->
@@ -37,18 +56,211 @@
 </head>
 
 <body>
-  <header>
-    <!-- Hero section will go here -->
-  </header>
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <div class="logo">
+                <img src="images/misc/logo.png"/>
+            </div>
+            <a
+                href="https://www.airbnb.com/rooms/858549148190026577"
+                target="_blank"
+                class="cta-btn"
+                >
+                Book Now
+            </a>
+        </div>
+    </header>
 
-  <main>
-    <!-- Page sections go here -->
-  </main>
+    <main>
+        <section class="hero">
+            <div class="hero-bg"></div>
 
-  <footer>
-    <!-- Footer content -->
-  </footer>
+            <div class="hero-content">
+                <h1>Heaven’s View</h1>
+                <p>Breathtaking Blue Ridge mountain retreat!</p>
+            </div>
+        </section>
 
-  <script src="/app.js" defer></script>
+        <section class="value-prop section">
+            <div class="container value-prop-inner">
+                <div class="value-prop-content">
+                    <h2>A Peaceful Mountain Getaway</h2>
+                    <p>
+                        Heaven’s View is designed for guests who value quiet mornings,
+                        scenic views, and time to slow down. Whether it’s coffee on the
+                        deck as the sun rises, an afternoon spent exploring nearby trails,
+                        or a relaxing evening in the hot tub under the stars, this cabin
+                        offers a calm, low-key mountain experience.
+                    </p>
+                    <p>
+                        Thoughtfully set between Blue Ridge and Ellijay, Heaven’s View is
+                        ideal for couples, solo travelers, or friends seeking a peaceful
+                        getaway—one that balances privacy, comfort, and a deep connection
+                        to the surrounding landscape.
+                    </p>
+                </div>
+
+                <div class="value-prop-image">
+                <img
+                    src="/images/gallery/deck-rocking-chairs.jpg"
+                    alt="Peaceful mountain cabin deck with rocking chairs overlooking the trees in Cherry Log, Georgia"
+                />
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery section">
+            <div class="container">
+                <h2 class="gallery-heading">Inside Heaven’s View</h2>
+
+                <div class="gallery-grid">
+                <img
+                    src="/images/gallery/open-view.jpeg"
+                    alt="Expansive mountain view from Heaven’s View cabin in Cherry Log, Georgia"
+                />
+                <img
+                    src="/images/gallery/creek-view.jpeg"
+                    alt="Peaceful creek and wooded surroundings near Heaven’s View cabin"
+                />
+                <img
+                    src="/images/gallery/living-room.jpeg"
+                    alt="Comfortable living room with rustic decor at Heaven’s View cabin"
+                />
+                <img
+                    src="/images/gallery/bedroom.jpeg"
+                    alt="Cozy bedroom with mountain cabin styling at Heaven’s View"
+                />
+                <img
+                    src="/images/gallery/game-room.jpg"
+                    alt="Game room with foosball table at Heaven’s View cabin"
+                />
+                <img
+                    src="/images/gallery/hotub-view.jpg"
+                    alt="Private hot tub with scenic mountain views at Heaven’s View cabin"
+                />
+                </div>
+            </div>
+        </section>
+
+        <section class="about section">
+            <div class="container about-centered">
+                <div class="about-avatar">
+                <img
+                    src="/images/misc/owners.png"
+                    alt="Owners of Heaven’s View cabin in the North Georgia mountains"
+                />
+                </div>
+
+                <div class="about-content">
+                <h2>About Heaven’s View</h2>
+                <p>
+                    <b>Greetings!  We are Mike and Debbie, the owners of this property.</b>
+                </p>
+                <p>
+                    Our family moved from Atlanta to the North Georgia mountains in March of
+                    1998.  After taking just one vacation up to the area, we decided right away that
+                    we wanted to raise our family here!  It was beautiful, peaceful, and allowed us to
+                    keep a simple lifestyle.  We have 10 children, and we knew this would be a
+                    perfect environment for the family.
+                </p>
+
+                <p>
+                    Life circumstances caused us to move out of the area in 2009, but we have since
+                    been blessed to be able to purchase this home for our present and future
+                    enjoyment and relaxation.  We have decorated and furnished the home with
+                    much thought and care, just as if we were personally living in it full time, so that
+                    our guests can enjoy the house and the property as fully as we do when we are
+                    staying here.
+                </p>
+
+                <p>
+                    We sincerely hope that your stay in our home is relaxing and memorable.  Our
+                    goal is that you would never want to leave, and that you would return and visit
+                    often!  Thank you for choosing Heaven’s view for your mountain vacation
+                    getaway, we sincerely hope that you enjoy your stay!
+                </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="ratings section">
+            <div class="container ratings-inner">
+                <div class="ratings-card">
+                    <div class="rating-item">
+                        <span class="badge">Guest favorite</span>
+                        <p class="muted">
+                        One of the most loved homes on Airbnb, according to guests
+                        </p>
+                    </div>
+
+                    <div class="rating-item rating-score">
+                        <span class="score">4.98</span>
+                        <div class="stars" aria-label="4.98 out of 5 stars">
+                        ★★★★★
+                        </div>
+                    </div>
+
+                    <div class="rating-item">
+                        <span class="reviews-count">50+</span>
+                        <span class="muted">Reviews</span>
+                    </div>
+                    </div>
+
+                    <div class="host-card">
+                    <img
+                        src="/images/misc/host.png"
+                        alt="Andrew, Superhost and property manager for Heaven’s View"
+                        class="host-avatar"
+                    />
+
+                    <div class="host-info">
+                        <strong>Hosted by Andrew</strong>
+                        <p class="muted">
+                        Superhost · Known for quick, thoughtful responses and close attention
+                        to guest feedback. Every detail is reviewed and improved with care.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta section">
+            <div class="container cta-inner">
+                <h2>Ready to Plan Your Stay?</h2>
+
+                <p>
+                Availability, pricing, and all guest communication are handled securely
+                through Airbnb. Booking takes just a few minutes, with flexible options
+                and trusted support throughout your stay.
+                </p>
+
+                <a
+                href="https://www.airbnb.com/rooms/858549148190026577"
+                target="_blank"
+                rel="noopener"
+                class="cta-btn cta-primary"
+                >
+                Book on Airbnb
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="logo footer-logo">
+                <img src="images/misc/logo.png"/>
+            </div>
+
+            <div class="footer-info">
+            <p>Cherry Log, Georgia · North Georgia Mountains</p>
+            <p>© <span id="footer-year"></span> Heaven’s View</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/app.js" defer></script>
 </body>
 </html>
