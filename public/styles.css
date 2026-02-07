@@ -516,3 +516,55 @@ section {
   color: #555;
   margin: 0.2rem 0;
 }
+
+.remembrance {
+  background-color: #fafafa; /* very light, neutral */
+  padding: 4rem 1.5rem;
+}
+
+.remembrance-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.remembrance-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.remembrance h2 {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.remembrance-text p {
+  max-width: 1024px;
+  margin: 0 auto 1.25rem;
+  line-height: 1.7;
+}
+
+.remembrance-name {
+  margin-top: 2rem;
+  font-size: 1.05rem;
+}
+
+.remembrance-verse {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #555;
+}
+
+.remembrance-verse span {
+  display: block;
+  margin-top: 0.25rem;
+  font-style: normal;
+  font-size: 0.95rem;
+}
+
+.remembrance-inner img {
+    margin:1em auto;
+}
