@@ -19,3 +19,30 @@ window.addEventListener("scroll", () => {
 
 document.getElementById("footer-year").textContent =
   new Date().getFullYear();
+
+  document.querySelectorAll('.cta-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (typeof gtag === 'function') {
+      gtag('event', 'book_now_click', {
+        event_category: 'engagement',
+        event_label: 'airbnb_booking'
+      });
+    }
+  });
+});
+
+let scrollTracked = false;
+
+window.addEventListener('scroll', () => {
+  if (scrollTracked) return;
+
+  const scrollPercent =
+    (window.scrollY + window.innerHeight) / document.body.scrollHeight;
+
+  if (scrollPercent > 0.75) {
+    scrollTracked = true;
+    gtag('event', 'scroll_75_percent', {
+      event_category: 'engagement'
+    });
+  }
+});
