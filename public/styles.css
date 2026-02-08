@@ -75,6 +75,9 @@ p {
     font-size:1.25em;
     font-weight:lighter;
 }
+b {
+  font-weight:bold;
+}
 
 @media (max-width: 768px) {
     h2 {
