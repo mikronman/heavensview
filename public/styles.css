@@ -257,23 +257,17 @@ section {
   }
 }
 
-/* ===== Title SECTION ===== */
+/* ===== HERO H1 ===== */
 
-.title-section {
-  text-align: center;
-  padding:2em;
-  background: #f2f2f2;
-}
-
-.title-section h1 {
-  font-size: 2.5em;
-  color: #333;
+.hero-content h1 {
+  font-size: 2.25em;
+  font-weight:lighter;
 }
 
 @media (max-width: 768px) {
-  .title-section h1 {
-  font-size: 1.5em;
-}
+  .hero-content h1 {
+    font-size: 1.5em;
+  }
 }
 
 /* ===== VALUE PROP SECTION ===== */
