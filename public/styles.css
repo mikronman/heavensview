@@ -224,6 +224,8 @@ section {
 
 .hero-content p {
   max-width: 100%;
+  font-weight:lighter;
+  font-size:1.25em;
 }
 @media (max-width: 768px) {
     .hero-content h1 {
@@ -373,8 +375,8 @@ section {
 }
 
 .about-avatar img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #eaeaea;
