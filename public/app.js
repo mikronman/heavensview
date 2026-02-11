@@ -27,9 +27,14 @@ document.getElementById("footer-year").textContent =
         event_category: 'engagement',
         event_label: 'airbnb_booking'
       });
+      gtag('event', 'conversion', {
+        'send_to': 'AW-726570860/8NVrCMCllrYYEOyuutoC',
+        'event_callback': callback
+      });
     }
   });
 });
+
 
 let scrollTracked = false;
 
